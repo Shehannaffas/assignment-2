@@ -1,0 +1,131 @@
+/* write CSS here */
+#header {
+    background-color: royalblue;
+}
+
+#header h1 {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font: Verdana, sans-serif;
+    color: white;
+    text-shadow: #333;
+}
+
+#header h2 {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    font-family: 'Garamon', serif;
+    color: white;
+    text-shadow: #333;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+h1 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h2 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Open-Sans', sans-serif;
+    border-bottom: 1px solid #999999;
+}
+
+h3 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+p {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    text-indent: 2em;
+    color: #999999;
+}
+
+#content p::first-line {
+    color: black;
+}
+
+#content a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+#content a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+#content a:active {
+    text-decoration: none;
+    color: blue;
+}
+
+#content a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.rank {
+    color: white;
+    background-color: black;
+}
+
+#footer {
+    background-color: black;
+}
+
+#footer h2 {
+    color: white;
+}
+
+#footer ul {
+    color: white;
+}
+
+#footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:active {
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul li:nth-child(1) {
+    list-style-type: disc;
+}
+
+ul li:nth-child(2) {
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+#footer p {
+    color: yellow;
+    text-align: center;
+}
